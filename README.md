@@ -16,6 +16,10 @@ This repository contains Markdown versions of Cisco and Zoom documentation, scra
 
 These files are clean Markdown suitable for chunking and embedding (e.g., with OpenAI, SentenceTransformers, LlamaIndex, LangChain, etc.).
 
+Example structure:
+- Preserve URL metadata if available in JSONL (`cisco/cisco_docs.jsonl`).
+- Chunk by headings or fixed size with overlap.
+
 ## Expanding the corpus
 
 To crawl more:

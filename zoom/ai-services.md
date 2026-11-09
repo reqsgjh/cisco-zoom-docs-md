@@ -34,4 +34,110 @@ To quickly get started, visit **[Zoom.ai](https://zoom.ai/)** to explore pricing
 
 [Summarizer API](/docs/ai-services/summarizer/) offers conversation and meeting summarization for transcripts from any system. It supports fast synchronous summarization and large-scale batch processing.
 
-(Full file content truncated for brevity in this commit; complete set available in local artifacts.)
+### Key features
+
+-   **Conversation-focused summarization**
+
+    Summarizes meeting, call, chat, and other dialogue-based transcript content
+
+-   **Structured outputs**
+
+    Returns recap, action item, summary, or full summary results for workflows and automation
+
+-   **Flexible processing**
+
+    Supports inline text requests and storage-based batch jobs for transcript files
+
+## Speech Summarization API
+
+[Speech Summarization API](/docs/ai-services/speech-summarization/) transcribes an uploaded audio or video recording and streams a Markdown summary in one request.
+
+### Key features
+
+-   **Recording summaries**
+
+    Returns a completed transcript followed by summary updates over Server-Sent Events
+
+-   **Summary templates**
+
+    Selects a template automatically or uses a predefined or custom template
+
+-   **Transcript citations**
+
+    Includes optional references to the transcript evidence behind the summary
+
+## Clinical Notes API
+
+[Clinical Notes API](/docs/ai-services/clinical-notes/) transcribes a recording and generates a clinical note from the transcript.
+
+### Key features
+
+-   **Note templates**
+
+    Generates notes using SOAP, General Medicine, or General Behavioral Health templates
+
+-   **Structured output**
+
+    Returns the transcript, a complete Markdown note, and individual note sections
+
+-   **Synchronous and asynchronous processing**
+
+    Returns results in one response, or processes a recording URL as a job that you poll
+
+## Translator API
+
+[Translator API](/docs/ai-services/translator/) delivers machine translation for text across a broad range of languages. It supports fast synchronous translation and large-scale batch processing.
+
+### Key features
+
+-   **Fast translation**
+
+    Translates plain text in a single synchronous API call
+
+-   **Batch processing**
+
+    Processes multiple files asynchronously for large-scale translation workloads
+
+-   **Broad language support**
+
+    Translates directly between any two supported languages, including all 24 official EU languages
+
+## Decisions API
+
+[Decisions API](/docs/ai-services/decisions/) evaluates shared text or image input against typed questions and returns structured results in one synchronous response.
+
+### Key features
+
+-   **Typed decisions**
+
+    Returns a probability for a condition, a selected choice, or a score against ordered levels
+
+-   **Multiple questions**
+
+    Evaluates several independent questions against the same input in one request
+
+-   **Text and image input**
+
+    Accepts text, images, or both as evidence
+
+## Voice Agent API
+
+[Voice Agent API](/docs/ai-services/voice-agent/) provides real-time spoken conversation with transcription, synthesized speech, automatic turn detection, and function calling.
+
+### Key features
+
+-   **Bidirectional voice interaction**
+
+    Streams user audio and agent responses over one connection
+
+-   **Natural turn taking**
+
+    Detects when the user finishes speaking and lets the user interrupt the agent
+
+-   **Model choice**
+
+    Uses the built-in model or your own OpenAI or Anthropic key
+
+-   **Function calling**
+
+    Connects spoken interactions to your application's tools and data
